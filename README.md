@@ -25,7 +25,7 @@ Needs: `Java 11` & `maven`
 * User should input "Y" if he wants to enter another command and any other key if he wants to exit.
 * If the rover reached any obstacle while executing commands it will immediately stop and inform the user with its current position, direction and "STOPPED" message.
 * The program will ask the user whether he would like the rover to generate a command or whether the user would like to continue or to enter commands manually.
-*If User Pressed G it will automatically generate 11 command string to take the rover to a safe place and avoid all obstacles. 
+* If User Pressed G it will automatically generate 11 command string to take the rover to a safe place and avoid all obstacles. 
 * Calculated Command will be printed for the user.
 * The API once again will ask the user whether to enter another command, Generate a command or  to exit. (Y To continue G to Generate Command) (user can press any other key to exit program)
 * If the user enters the calculated command the rover will execute each and every command until it reaches the safe place that the rover already calculated before.
